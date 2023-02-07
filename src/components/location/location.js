@@ -1,19 +1,20 @@
 import React from 'react'
+import './location.css'
 
 const Location = ()=> {
   return (
     <div>
-        <div>
-            <div>
-            <div>
+        <div className='sidebar'>
+            <div className='sidebar-header'>
+            <div className='side-header'>
                 <h1>Welcome to Our Restaurent</h1>
                 <img src='' alt='' />
             </div>
-            <div className="buttons">
-                <button>Pickup</button>
-                <button>Delivery</button>
+            <div className="side-buttons">
+                <button id='b-pickup'>Pickup</button>
+                <button id='b-delivery'>Delivery</button>
             </div>
-            <div>
+            <div className='side-inputs'>
                 <label>Find Your Closest Restaurent</label>
                 <input type="text" placeholder="Enter your address"/>
             </div>
