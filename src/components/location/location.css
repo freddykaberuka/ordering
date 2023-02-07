@@ -1,10 +1,12 @@
 .sidebar {
     text-align: left;
     width: 30%;
+    background-color: rgb(238, 231, 231);
 }
 .sidebar-header {
-    padding: 20px;
-    font-weight: 900;
+    padding: 20px 20px 30px 20px;
+    border-bottom: 2px solid rgb(193, 190, 190);
+    background-color: #fff;
 }
 .side-header {
     display: flex;
@@ -38,4 +40,66 @@
     border-top: 0;
     border-left: 0;
     border-right:0;
+}
+
+/* container */
+.sidebar-container {
+    margin: 20px ;
+}
+.sidebar-cont-card{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.cont-detail {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.cont-detail label {
+    font-weight: 800;
+}
+.cont-detail span{
+    font-size: 12px;
+    color: rgb(125, 121, 121);
+    font-weight: 600;
+}
+.cont-contact {
+    display: grid;
+}
+.cont-contact span{
+    font-size: 14px;
+    color: rgb(125, 121, 121);
+    font-weight: 600;
+}
+.hours{
+    display: grid;
+    padding-top: 20px;
+}
+.hours label {
+    font-weight: 800;
+}
+.hours span{
+    font-size: 12px;
+    color: rgb(125, 121, 121);
+    font-weight: 600;
+}
+.cont-buttons{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.cont-buttons button{
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px solid rgb(137, 134, 134);
+    width: 200px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(44, 43, 43);
+}
+.cont-buttons button:hover{
+   background-color: rgb(6, 198, 79);
+   color: #000; 
+   border: 0;
 }
