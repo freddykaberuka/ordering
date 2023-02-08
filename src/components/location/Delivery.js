@@ -1,15 +1,10 @@
-import React from "react";
-import "./location.css";
-import SidebarCard from "./sidebarCard";
+import React from 'react'
 import logo from "../../assets/aprlogo.jpeg";
-import Delivery from "./Delivery";
 
-const Location = () => {
+function Delivery() {
   return (
     <div>
-      <div className="sidebar">
-        <Delivery/>
-        {/* <div className="sidebar-header">
+        <div className="sidebar-header">
           <div className="side-header">
             <h1>Welcome to Our Restaurent</h1>
             <img src={logo} alt="" />
@@ -22,14 +17,9 @@ const Location = () => {
             <label>Find Your Closest Restaurent</label>
             <input type="text" placeholder="Enter your address" />
           </div>
-        </div> */}
-
-        <div className="sidebar-container">
-          <SidebarCard />
         </div>
-      </div>
     </div>
-  );
-};
+  )
+}
 
-export default Location;
+export default Delivery
