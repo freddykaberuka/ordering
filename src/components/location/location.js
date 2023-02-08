@@ -3,6 +3,7 @@ import "./location.css";
 import SidebarCard from "./sidebarCard";
 import logo from "../../assets/aprlogo.jpeg";
 import Delivery from "./Delivery";
+import DeliveryAddress from "./DeliveryAddress";
 
 const Location = () => {
   return (
@@ -25,7 +26,8 @@ const Location = () => {
         </div> */}
 
         <div className="sidebar-container">
-          <SidebarCard />
+          {/* <SidebarCard /> */}
+          <DeliveryAddress/>
         </div>
       </div>
     </div>

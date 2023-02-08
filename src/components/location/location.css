@@ -35,6 +35,8 @@
 .side-inputs{
     padding-top: 20px;
     display: grid;
+    text-transform: capitalize;
+    display: flex;
 }
 .side-inputs label {
     font-weight: 900;
@@ -108,4 +110,19 @@
    background-color: rgb(6, 198, 79);
    color: #000; 
    border: 0;
+}
+
+/* delivery */
+
+.delivery-container{
+    justify-content: center;
+    text-align: center;
+}
+.delivery-container h2{
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.delivery-container img{
+    border-radius: 50%;
 }

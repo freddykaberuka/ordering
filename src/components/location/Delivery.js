@@ -14,8 +14,14 @@ function Delivery() {
             <button id="b-delivery">Delivery</button>
           </div>
           <div className="side-inputs">
-            <label>Find Your Closest Restaurent</label>
+            <div>
+            <label>where's your food going?</label>
             <input type="text" placeholder="Enter your address" />
+            </div>
+            <div>
+            <label>apt/suite</label>
+            <input type="text" placeholder="Optional" />
+            </div>
           </div>
         </div>
     </div>
